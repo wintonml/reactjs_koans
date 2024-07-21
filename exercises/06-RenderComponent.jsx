@@ -14,7 +14,8 @@ class Name extends React.Component {
 
 // See you got a domNode passed as a `domNode` argument.
 function renderNameComponent(domNode) {
-  // Put your code here
+  let element = React.createElement(Name);
+  React.render(element, domNode)
 }
 
 // Hint: You have to use the `React.render(ReactElement element, DOMNode node)` method.
